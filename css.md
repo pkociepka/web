@@ -53,6 +53,10 @@ W sekcji ```head``` musimy zalinkować odpowiedni arkusz stylów:
 
 Listę wszystkich komponentów możesz znaleźć tutaj: <https://getbootstrap.com/docs/4.3/components/>
 
+### Jak rozmieścić elementy na stronie?
+
+W Bootstrapie używamy do tego kontenerów i kolumn: <https://getbootstrap.com/docs/4.0/layout/grid/>
+
 ## Zadanie
 
 Nadaj swojemu CV ładną formę graficzną
