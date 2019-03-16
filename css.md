@@ -30,3 +30,6 @@ Selektory określają zbiór elementów, do których należy zaaplikować dany s
 
 * ```tagName``` - dotyczy wszystkich elementów HTML o podanej nazwie (np. selektor ```h3``` dotyczy wszystkich elementów ```<h3>```)
 Selektory można ze sobą łączyć, po więcej szczegółów warto zajrzeć na <https://www.w3schools.com/cssref/css_selectors.asp>
+
+## Zadanie
+Nadaj swojemu CV ładną formę graficzną
