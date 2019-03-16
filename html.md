@@ -1,8 +1,3 @@
-Title:   Wprowadzenie do języka HTML
-Summary: Wprowadzenie do języka HTML
-Authors: Piotr Ociepka
-Date:    Jan 09, 2019
-
 # Wprowadzenie do HTML
 
 ## Znaczniki
