@@ -18,7 +18,14 @@ Parametrów modyfikujących wygląd strony jest tak dużo, że nie ma sensu ich 
 
 <!-- ## Robimy porządki, czyli style w osobnym pliku -->
 
+## Gdzie umieścić style?
 
+Najlepiej style definiować w osobnym pliku z rozszerzeniem ```.css```. Ważne, żeby powiedzieć stronie internetowej, gdzie może szukać definicji tych stylów. W tym celu do nagłówka strony musimy dopisać odpowiedni odnośnik:
+```HTML
+<head>
+  <link rel="stylesheet" type="text/css" href="theme.css">
+</head>
+```
 
 ## Selektory
 
