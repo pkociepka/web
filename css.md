@@ -38,5 +38,23 @@ Selektory określają zbiór elementów, do których należy zaaplikować dany s
 * ```tagName``` - dotyczy wszystkich elementów HTML o podanej nazwie (np. selektor ```h3``` dotyczy wszystkich elementów ```<h3>```)
 Selektory można ze sobą łączyć, po więcej szczegółów warto zajrzeć na <https://www.w3schools.com/cssref/css_selectors.asp>
 
+## Bootstrap
+
+Pojawia się pytanie - czy musimy wymyślać wszystkie style na nowo? Przecież ktoś już na pewno robił to samo, warto by skorzystać z gotowych elementów. Pytanie było na tyle popularne, że obecnie istnieje kilka popularnych *bibliotek stylów*. Jedną z nich jest Bootstrap.
+
+### Skąd go wziąć?
+
+W sekcji ```head``` musimy zalinkować odpowiedni arkusz stylów:
+```HTML
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+```
+
+### Jak go używać?
+
+Listę wszystkich komponentów możesz znaleźć tutaj: <https://getbootstrap.com/docs/4.3/components/>
+
 ## Zadanie
+
 Nadaj swojemu CV ładną formę graficzną
+
+
