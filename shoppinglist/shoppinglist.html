@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="shoppinglist.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/@coreui/icons/css/coreui-icons.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="shoppinglist.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron" style="margin-top: 1rem;">
+            <h1> Shopping list </h1>
+
+        </div>
+        <div class="row" style="display: flex; align-items: center">
+            <div class="col-md-2 offset-md-1">
+                <input type="text" name="product-name" id="product-name">
+            </div>
+            <div class="col-md-2">
+                <button type="button" class="btn btn-primary" onclick="addProduct()">
+                    Add
+                </button>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-4 offset-md-1">
+                <ul class="list-group" id="shopping-list">
+                    <!-- <li class="list-group-item shopping-item">
+                        <div class="col product-name">bread</div>
+                        <div class="col product-controls">
+                            <span class="badge badge-pill badge-secondary">+</span>
+                            <span class="badge badge-pill badge-primary">1</span>
+                            <span class="badge badge-pill badge-secondary">-</span>
+                            <stan class="badge badge-pill badge-danger cui-trash"></span>
+                        </div>
+                    </li>
+                    <li class="list-group-item shopping-item">
+                        <div class="col product-name">cheese</div>
+                        <div class="col product-controls">
+                            <span class="badge badge-pill badge-secondary">+</span>
+                            <span class="badge badge-pill badge-primary">4</span>
+                            <span class="badge badge-pill badge-secondary">-</span>
+                            <stan class="badge badge-pill badge-danger cui-trash"></span>
+                        </div>
+                    </li>
+                    <li class="list-group-item shopping-item">
+                        <div class="col product-name">milk</div>
+                        <div class="col product-controls">
+                            <span class="badge badge-pill badge-secondary">+</span>
+                            <span class="badge badge-pill badge-primary">2</span>
+                            <span class="badge badge-pill badge-secondary">-</span>
+                            <stan class="badge badge-pill badge-danger cui-trash"></span>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+.shopping-item {
+    display: flex !important;
+    align-items: center;
+}
+
+.shopping-item:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.shopping-item:hover {
+    background-color: #e9ecef;
+}
+
+.product-name {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.product-controls {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-count {
+    display: flex !important;
+    align-items: center;
+    margin-right: 0.5rem;
+}
+
+.product-button:hover {
+    cursor: pointer;
+}
